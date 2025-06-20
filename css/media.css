@@ -114,7 +114,10 @@ h5 {
         position: relative !important;
     }
 
-  
+    .nav-item{
+        display: flex;
+        justify-content: center;
+       }
 }
 
 
@@ -124,7 +127,10 @@ h5 {
     h5 {
         font-size: 1rem;
     }
-   
+   .nav-item{
+    display: flex;
+    justify-content: center;
+   }
     .title {
         font-size: 4vh !important;
     }
