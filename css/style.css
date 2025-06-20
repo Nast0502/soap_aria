@@ -129,3 +129,6 @@ footer p {
     display: block !important;
 }
 
+.modal-body h5 {
+    font-size: 1.2em;
+}
