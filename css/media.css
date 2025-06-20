@@ -1,0 +1,154 @@
+@media (min-width:1200px) {
+.card {
+    width: 22vw;
+}
+.btn-card {
+    position: absolute;
+    bottom: 1em;
+    margin-right: 0.8em;
+    justify-content: center;
+}
+
+.basic-img {
+
+    width: 85%;
+}
+
+}
+
+@media (min-width:992px) and (max-width: 1199px) {
+    ul {
+        font-size: 0.7em;
+        width: 40px;
+        margin-top: 9px;
+        float: none;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+
+    }
+
+    /* .nav-item,
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        align-items: center;
+
+    } */
+
+    .carousel-inner {
+        display: flex;
+        margin-bottom: 3vh;
+        width: 60vw;
+        justify-self: center
+    }
+
+    .card {
+        width: 60vw;
+    }
+
+    .cards-mb {
+        margin-bottom: 03vw;
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .btn-card {
+        position: absolute;
+        bottom: 1em;
+        margin-right: 0.8em;
+        justify-content: center;
+    }
+
+    .footer-relative {
+        position: relative !important;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width: 991px) {
+    .title {
+        font-size: 4vh;
+    }
+
+    .card {
+        width: 60vw;
+    }
+
+    .card-title {
+        height: 2em;
+    }
+
+    .card-body {
+        position: relative;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .carousel-inner {
+        display: flex;
+        margin-bottom: 3vh;
+    }
+
+    .cards-mb {
+        margin-bottom: 03vw;
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .footer-relative {
+        position: relative !important;
+    }
+}
+
+
+
+
+@media (min-width:100px) and (max-width: 767px) {
+    .title {
+        font-size: 4vh !important;
+    }
+
+    .card {
+        width: 60vw;
+    }
+
+    .cards-mb {
+        margin-bottom: 03vw;
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .carousel-inner {
+        display: flex;
+        margin-bottom: 3vh;
+    }
+
+    .footer-relative {
+        position: relative !important;
+    }
+
+
+    .cards-mb {
+        margin-bottom: 03vw;
+        display: flex;
+        justify-content: center !important;
+    }
+
+
+    p {
+        font-size: 1.2rem;
+    }
+}

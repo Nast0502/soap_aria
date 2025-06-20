@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Мыло ручной работы Мыльная ария</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- Навигационная панель-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Мыльная ария</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 lg-2 xl-2 xxl-0  justify-content-between w-100 ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="NG.html">Мыло на Новый год</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="8M.html">Мыло на 8 Марта</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="23F.html">Мыло на 23 Февраля</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fragrances.html">Ароматы для мыла</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dostavka_i_oplata.html">Доставка и оплата</a>
+                        </li>
+                        <li class="nav-item nav-btn">
+                            <button type="button" class="nav-btn btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Сделать заказ
+                            </button>
+                        </li>
+                    </ul>
+
+                    <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                        <button class="btn btn-outline-success" type="submit">Поиск</button>
+                    </form>  -->
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- Pop-up окно формы подачи заказа -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Отправка заказа</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 align="center">Введите детали заказа</h5>
+                        <p> <span class="form-text-red"> Внимание!</span> <br> Срок выполнения заказа - от 3 до 7 дней.
+                            <br>
+                            Доставка заказа - от 2 до 10 дней.</p>
+                        <form id="feedbackForm">
+                            <div class="mb-3">
+                                <label for="fname" class="form-label">Имя</label>
+                                <input type="text" class="form-control" id="fname" placeholder="Введите имя" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="lname" class="form-label">Фамилия</label>
+                                <input type="text" class="form-control" id="lname" placeholder="Введите фамилию" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="products" class="form-label">Выбранные товары</label>
+                                <textarea rows="3" cols="100" class="form-control" id="products"
+                                    placeholder="Введите выбранные товары"></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="fragrances" class="form-label">Ароматы мыла</label>
+                                <textarea rows="3" cols="100" class="form-control" id="fragrances"
+                                    placeholder="Введите выбранные ароматы" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="address" class="form-label">Адрес доставки</label>
+                                <input type="text" class="form-control" id="address"
+                                    placeholder="Введите адрес для доставки"required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Телефон</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Введите телефон" required>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                <label class="form-check-label" for="exampleCheck1">Я проверил(а), что все данные введены правильно</label> 
+                            </div>
+                                <button type="submit" class="btn btn-primary btn-form ">Отправить </button>
+    </header>
+    <!---->
+
+    <main>
+        <!--Начало главной страницы-->
+        <section class="str1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm-6 col-md-5"> <img class="basic-img" src="img/img1.png" alt="Иконка" width="100%">
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                        <h1 class="title"> Мыло ручной работы <br> "Мыльная ария" </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Область с карточками-->
+        <section class="str2">
+            <div class="container">
+                <h2>Изучите нашу продукцию, выбрав одну из категорий:</h2> <br>
+                <div class="row">
+                    <div class="col-lg-4 cards-mb d-flex">
+
+                        <div class="card">
+                            <img src="img/8m_main.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Мыло на 8 Марта</h5>
+                                <p class="card-text .card-text-marg">Цветы, сладости, милые зверята и многое другое мыло
+                                    для девочек, девушек и женщин.</p>
+                                <a href="8M.html" class="btn btn-primary btn-card">Посмотреть подробнее...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center cards-mb">
+
+                        <div class="card">
+                            <img src="img/23f_3.jpg" class="card-img-top cards" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Мыло на 23 Февраля</h5>
+                                <p class="card-text">Необычное мыло для мужчин, например, в виде реалистичных
+                                    бутербродов или пельменей в сковородке. </p>
+                                <a href="23F.html" class="btn btn-primary justify-content-center">Посмотреть
+                                    подробнее...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-end cards-mb">
+                        <div class="card">
+                            <img src="img/ng_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Мыло на Новый год</h5>
+                                <p class="card-text">Ёлки, мандарины и другое красивое мыло ручной работы для подарка в
+                                    новогодние праздники.</p>
+                                <a href="NG.html" class="btn btn-primary btn-card">Посмотреть подробнее...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Подвал-->
+    <footer class="footer align-items-center d-flex justify-content-center>
+        <div class="icons">
+            <p> &copy Made by Nastya Efremova &nbsp; &nbsp;</p>
+            <div class="icon-item"><a href="https://vk.com/nastenka140"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a> </div>
+        </div>
+        </div>
+    </footer>
+
+    <!--Скрипт для отправки данных с формы в Google-таблицу-->
+    <script>
+        document.getElementById('feedbackForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            var formData = {
+                fname: document.getElementById('fname').value,
+                lname: document.getElementById('lname').value,
+                products: document.getElementById('products').value,
+                fragrances: document.getElementById('fragrances').value,
+                address: document.getElementById('address').value,
+                phone: document.getElementById('phone').value
+            };
+
+            fetch('https://script.google.com/macros/s/AKfycbzDz56HGSnMIZCFmtywPZ1bm8NYYFLZZU3vBjTue_EBGeMlBvERPGP4K8nhu0K5Fg__/exec', {
+                method: 'POST',
+                body: JSON.stringify(formData)
+            })
+                .then(response => response.text())
+                .then(data => {
+                    alert(data);
+                    document.getElementById('feedbackForm').reset();
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                });
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"   crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

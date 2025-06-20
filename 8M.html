@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мыло ручной работы Мыльная ария</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+  <header>
+
+    <!-- Навигационная панель-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Мыльная ария</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 lg-2 xl-2 xxl-0  justify-content-between w-100 ">
+            <li class="nav-item">
+              <a class="nav-link" href="NG.html">Мыло на Новый год</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="8M.html">Мыло на 8 Марта</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="23F.html">Мыло на 23 Февраля</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fragrances.html">Ароматы для мыла</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dostavka_i_oplata.html">Доставка и оплата</a>
+            </li>
+            <li class="nav-item nav-btn">
+              <button type="button" class="nav-btn btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Сделать заказ
+              </button>
+            </li>
+          </ul>
+
+          <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                        <button class="btn btn-outline-success" type="submit">Поиск</button>
+                    </form> -->
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+    <!-- Pop-up окно формы подачи заказа -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Отправка заказа</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <h5 align="center">Введите детали заказа</h5>
+                  <p> <span class="form-text-red"> Внимание!</span> <br> Срок выполнения заказа - от 3 до 7 дней.
+                      <br>
+                      Доставка заказа - от 2 до 10 дней.</p>
+                  <form id="feedbackForm">
+                      <div class="mb-3">
+                          <label for="fname" class="form-label">Имя</label>
+                          <input type="text" class="form-control" id="fname" placeholder="Введите имя" required>
+                      </div>
+
+                      <div class="mb-3">
+                          <label for="lname" class="form-label">Фамилия</label>
+                          <input type="text" class="form-control" id="lname" placeholder="Введите фамилию" required>
+                      </div>
+
+                      <div class="mb-3">
+                          <label for="products" class="form-label">Выбранные товары</label>
+                          <textarea rows="3" cols="100" class="form-control" id="products"
+                              placeholder="Введите выбранные товары" required></textarea>
+                      </div>
+
+                      <div class="mb-3">
+                          <label for="fragrances" class="form-label">Ароматы мыла</label>
+                          <textarea rows="3" cols="100" class="form-control" id="fragrances"
+                              placeholder="Введите выбранные ароматы" ></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="address" class="form-label">Адрес доставки</label>
+                          <input type="text" class="form-control" id="address"
+                              placeholder="Введите адрес для доставки"required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Телефон</label>
+                          <input type="tel" class="form-control" id="phone" placeholder="Введите телефон" required>
+                      </div>
+                      <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                          <label class="form-check-label" for="exampleCheck1">Я проверил(а), что все данные введены правильно</label> 
+                      </div>
+                          <button type="submit" class="btn btn-primary btn-form ">Отправить </button>
+</header>
+<!---->
+  <main>
+    <!--Начало страницы-->
+    <section>
+      <div class="container">
+        <h2> Мыло к 8 Марта </h2> <br> <br>
+        <p>&ensp;&ensp;Мыло ручной работы - отличный подарок на 8 Марта, который сможет удивить и порадовать прекрасных
+          дам в этот замечательный день.</p>
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-xl-4 page-elements">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/8m_5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/8m_6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-caption d-none d-sm-block">
+                    <h5>Мыло "Пион"<br>(130 гр.) 250 руб.</h5>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-xl-4 page-elements">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/8m_1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-sm-block">
+                  <h5>Мыло "Букетик"<br> (155 гр.) 300 руб.</h5>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-xl-4 page-elements">
+
+
+              <div id="carouselExampleIndicators2" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/8m_7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/8m_8.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-caption d-none d-sm-block">
+                    <h5>Набор "Печенье Macarons"<br>(150 гр.) 200 руб.</h5>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-xl-4 page-elements">
+              <div id="carouselExampleIndicators3" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/8m_3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/8m_4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-caption d-none d-sm-block">
+                    <h5>Набор "Зайчик + Роза"<br>(150 гр.) 300 руб.</h5>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col-xl-4 page-elements">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/8m_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-sm-block">
+                  <h5>Мыло "Восьмёрка с пионами"<br>(60 гр.) 150 руб.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+  </main>
+
+  <!--Подвал-->
+
+  <footer class="footer align-items-center d-flex justify-content-center ">
+
+    <div class="icons">
+      <p> &copy Made by Nastya Efremova &nbsp; &nbsp;</p>
+      <div class="icon-item"><a href="https://vk.com/nastenka140"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    </div>
+
+  </footer>
+
+  <!--Скрипт для отправки данных с формы в Google-таблицу-->
+  <script>
+    document.getElementById('feedbackForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      var formData = {
+        fname: document.getElementById('fname').value,
+        lname: document.getElementById('lname').value,
+        products: document.getElementById('products').value,
+        fragrances: document.getElementById('fragrances').value,
+        address: document.getElementById('address').value,
+        phone: document.getElementById('phone').value
+      };
+
+      fetch('https://script.google.com/macros/s/AKfycbzDz56HGSnMIZCFmtywPZ1bm8NYYFLZZU3vBjTue_EBGeMlBvERPGP4K8nhu0K5Fg__/exec', {
+        method: 'POST',
+        body: JSON.stringify(formData)
+      })
+        .then(response => response.text())
+        .then(data => {
+          alert(data);
+          document.getElementById('feedbackForm').reset();
+        })
+        .catch(error => {
+          console.error('Ошибка:', error);
+        });
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"  crossorigin="anonymous"></script>
+</body>
+
+</html>

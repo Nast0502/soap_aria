@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'PhantomMuff Plus';
+    src: url('../font/PhantomMuff 1.5 Plus Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Compotes Apple';
+    src: url('../font/compotes-apple.otf');
+}
+
+
+@font-face {
+    font-family: 'Compotes Basilic';
+    src: url('../font/compotes-basilic.otf');
+}
+
+
+
+
+body {
+    font-family: 'PhantomMuff Plus';
+    background-color: lightskyblue;
+
+}
+
+h1 {
+    font-size: 6vh;
+    text-align: center
+}
+
+h2 {
+
+    margin-top: 3vh;
+    text-align: center
+}
+
+
+
+.navbar {
+    cursor: pointer;
+}
+
+
+.nav-item {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.form-text-red {
+    color: red;
+    font-weight: bold;
+}
+
+.btn-form {
+    display: block;
+    margin: 0 auto;
+}
+
+.basic-img {
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.str1 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.str2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 18rem;
+}
+
+.carousel-inner {
+    object-fit: cover;
+}
+
+
+
+
+/*футер*/
+footer {
+    color: floralwhite;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 6vh;
+    margin-top: 5vh;
+    padding-bottom: 1vh;
+    margin-right: 3vw;
+    padding-top: 1vh;
+    background-color: grey;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.icons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page-elements {
+    margin-top: 02vw;
+}
+
+.page-elements h5 {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
